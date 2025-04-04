@@ -1,5 +1,5 @@
 import { menuButtons } from "@/CONSTANTS";
-import NavButton from "./ReusableComponents/navButton";
+import NavButton from "../ReusableComponents/navButton";
 
 const NavButtons = () => {
   return (

@@ -3,7 +3,7 @@ import React from "react";
 import { Bell } from "lucide-react";
 import Image from "next/image";
 import Navbar from "./navbar";
-import SearchBar from "./ReusableComponents/searchBar";
+import SearchBar from "../ReusableComponents/searchBar";
 import NavButtons from "./navButtons";
 import Link from "next/link";
 

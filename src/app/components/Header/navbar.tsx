@@ -1,5 +1,5 @@
 import { menuItems } from "@/CONSTANTS";
-import NavLink from "./ReusableComponents/navLink";
+import NavLink from "../ReusableComponents/navLink";
 
 const Navbar = () => {
   return (

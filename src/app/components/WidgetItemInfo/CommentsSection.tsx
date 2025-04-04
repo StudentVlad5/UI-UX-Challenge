@@ -5,6 +5,7 @@ import RatingStars from "../ReusableComponents/ratingStars";
 import Image from "next/image";
 import AddUsersTools from "../ReusableComponents/addUsersTools";
 
+
 interface AdCardProps {
   name: string;
   rate: number;

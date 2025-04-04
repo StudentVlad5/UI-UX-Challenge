@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import RatingStars from "../ReusableComponents/ratingStars";
+import RatingStars from "../../ReusableComponents/ratingStars";
 import Image from "next/image";
 
 interface AdCardProps {

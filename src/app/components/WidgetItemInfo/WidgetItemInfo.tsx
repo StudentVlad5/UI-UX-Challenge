@@ -1,5 +1,6 @@
 import React from "react";
 import AdCard from "./AdCard";
+import CommentItem from "./Comments";
 
 
 interface BreadcrumbInfoProps {
@@ -16,8 +17,9 @@ interface BreadcrumbInfoProps {
 
 const BreadcrumbInfo: React.FC<BreadcrumbInfoProps> = ({ item }) => {
   return (
-    <nav className="bg-black p-4 flex flex-col items-center justify-center max-w-724px] mx-auto">
+    <nav className="bg-black p-4 flex flex-col items-center justify-center max-w-[724px] mx-auto">
       <AdCard {...item}/>
+      <CommentItem/>
     </nav>
   );
 };
