@@ -1,6 +1,6 @@
 # Single Widget Page Implementation Plan
 
-## Overview
+## Overview (6 hours of work)
 
 This repository contains the implementation plan for the Single Widget Page. 
 
