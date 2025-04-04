@@ -28,16 +28,16 @@ Ensure you have the following installed:
 Clone the repository and install dependencies:
 
 # Clone the repository
-git clone https://github.com/your-repo/single-widget-page.git
-cd single-widget-page
+    git clone https://github.com/your-repo/single-widget-page.git
+    cd single-widget-page
 
 # Install dependencies
-npm install  # or yarn install
+    npm install  # or yarn install
 
 # Running the Project
 
 To start the development server, run:
-npm run dev  # or yarn dev
+    npm run dev  # or yarn dev
 The application will be available at http://localhost:3000.
 
 ## Sub-Task Breakdown
@@ -45,9 +45,7 @@ The application will be available at http://localhost:3000.
 ### 1. Routing & Navigation
 
 Implement dynamic routing using Next.js (pages/widget/[id].tsx).
-
 Use useRouter to extract the widget ID from the URL.
-
 Link widgets from Widget_List_Page to Single_Widget_Page.
 
 ### 2. Component Breakdown
@@ -74,9 +72,9 @@ UserComments: Displays user comments and interaction options.
 CommentsSection: Allows users to purchase or acquire the widget.
 Chat Contents:
 
-    Header: Displays user details, date, and time.
-    Content: Displays user messages.
-    Footer: Includes Like/Dislike and Reply buttons.
+Header: Displays user details, date, and time.
+Content: Displays user messages.
+Footer: Includes Like/Dislike and Reply buttons.
 
 ### Reusable Components
 
@@ -104,64 +102,51 @@ Use hover effects and animations as per Figma design guidelines.
 ### 5. Performance & Testing
 
 Performance Optimization
-Use Next.js Static Site Generation (SSG) where applicable.
-Optimize images using the Next.js Image component.
-Enable lazy loading for comments and other non-critical elements.
-Implement Google Analytics for tracking.
-Set up Google Search Console for SEO optimization.
-Implement breadcrumbs for improved navigation and SEO.
-Use structured data (Schema.org JSON-LD) to enhance search engine indexing.
-Define meta tags dynamically using next/head.
+- Use Next.js Static Site Generation (SSG) where applicable.
+- Optimize images using the Next.js Image component.
+- Enable lazy loading for comments and other non-critical elements.
+- Implement Google Analytics for tracking.
+- Set up Google Search Console for SEO optimization.
+- Implement breadcrumbs for improved navigation and SEO.
+- Use structured data (Schema.org JSON-LD) to enhance search engine indexing.
+- Define meta tags dynamically using next/head.
 Testing Approach
-Unit tests with Jest & React Testing Library.
-Integration tests for API calls and state management.
-End-to-end tests using Cypress for user interactions.
+- Unit tests with Jest & React Testing Library.
+- Integration tests for API calls and state management.
+- End-to-end tests using Cypress for user interactions.
 
 ### 6. Estimated Timeline
 
-Task                            | Time Estimate     |
-Setup routing & navigation      | 1 day             |
-Implement components            | 2 days            |
-State management & data fetching| 2 days            |
-Styling & responsiveness        | 2 days            |
-Testing & bug fixes             |  2 days           |
-------------------------------------------------------
-Total Estimate                  |  9 days           |
+|Task                            | Time Estimate     |
+|Setup routing & navigation      | 1 day             |
+|Implement components            | 2 days            |
+|State management & data fetching| 2 days            |
+|Styling & responsiveness        | 2 days            |
+| Testing & bug fixes            |  2 days           |
+|--------------------------------|-------------------|
+|Total Estimate                  |  9 days           |
 
 ### 7. Potential Blockers & Required Information
 
 ## Potential Blockers
 
-Unclear API structure for widget details and comments.
-
-Handling authentication for commenting and purchasing.
-
-Rate limits or caching policies for API requests.
-
-Handling unauthorized users who do not have a name when submitting a review or like.
-
-New computer for the developer.
+-- Unclear API structure for widget details and comments.
+-- Handling authentication for commenting and purchasing.
+-- Rate limits or caching policies for API requests.
+-- Handling unauthorized users who do not have a name when submitting a review or like.
+-- New computer for the developer.
 
 ## Additional Information Needed
 
 API documentation for widget details and comments.
-
 Expected behavior for unauthenticated users (e.g., Can they comment or like?).
-
 Hover states and animations confirmation from the design team.
-
 Search parameters and filtering logic.
-
 Sorting criteria (e.g., by rating, popularity, newest).
-
 Pagination strategy for comment sections and widget lists.
-
 Multilingual support and language switching behavior.
-
 Customer support system (e.g., live chat, FAQ).
-
 Logic for the "Create" button and Clock icon functionality.
-
 Timezone handling for timestamps in comments and user activity.
 
 ## 📌 Conclusion
