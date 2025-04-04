@@ -123,9 +123,16 @@ Testing Approach
 
 ### 6. Estimated Timeline
 
-|Task                            | Time Estimate     ||--------------------------------|-------------------||Setup routing & navigation      | 1 day             ||Implement components            | 2 days            ||State management & data fetching| 2 days            ||Styling & responsiveness        | 2 days            || Testing & bug fixes            |  2 days           |
+|Task                            | Time Estimate     |
+|--------------------------------|-------------------|
+|Setup routing & navigation      | 1 day             |
+|Implement components            | 2 days            |
+|State management & data fetching| 2 days            |
+|Styling & responsiveness        | 2 days            |
+|Fixes and testing               |  2 days           |
 |--------------------------------|-------------------|
 |Total Estimate                  |  9 days           |
+
 
 
 ### 7. Potential Blockers & Required Information
